@@ -12,7 +12,7 @@ Take assumptions, show your ideas, be bold.
 
 ## Technical Challenge
 
-**⚠️ Please submit your exercise before next Tuesday January 24th at 8pm CET. ⚠️**
+**⚠️ Please submit your exercise during the next 3 working days. ⚠️**
 
 At Komon we are very busy this year’s start reshaping the connection between creators and communities 🚀🚀.
 
