@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+
+
+
+@tailwind components;
+
+@tailwind utilities;
+
+.gradd {
+  background: linear-gradient(
+    rgb(205, 135, 240) 0%,
+    rgb(167, 68, 199) 5.21%,
+    rgb(221, 0, 255) 13.02%,
+    rgb(196, 214, 243) 20.83%,
+    rgb(140, 200, 205) 27.08%,
+    rgb(80, 255, 136) 34.38%,
+    rgb(97, 81, 202) 41.15%,
+    rgb(55, 24, 99) 47.92%,
+    rgb(96, 225, 248) 55.73%,
+    rgb(178, 28, 162) 64.58%,
+    rgb(98, 29, 99) 72.4%,
+    rgb(255, 0, 198) 78.12%,
+    rgb(255, 0, 125) 83.33%,
+    rgb(161, 40, 55) 89.58%,
+    rgb(255, 0, 0) 95.83%,
+    rgb(97, 81, 202) 99.48%
+  );
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.instagram{
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+
+  .twitter{
+    background: #1da1f2;
+  }
+  .Linkedin{
+    background: #0077b5;
+  }
+  .Facebook{
+    background: #3b5998;
+  }

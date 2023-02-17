@@ -1,51 +1,38 @@
-# Komon Frontend Technical Interview
-![Komon Technical Challenge](https://user-images.githubusercontent.com/75724798/191496086-1a644015-216c-4bb2-bdf4-c41cd673bf2a.png)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Be welcome applicant to `Komon's Frontend Technical Challenge`! Thanks for accepting this challenge. We are glad to see your interest in starting a journey with us.
+## Getting Started
 
-In this challenge you are asked to complete a small project related to a common week situation.
+First, run the development server:
 
-**⚠️ Disclaimer ⚠️**
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-The main goal of the task is defined but the details aren't. At Komon we are a fast changing startup and we value the extra step  engineers add to the product & design process. We want you to contribute and interact with the design and implementation the same as we do.
-Take assumptions, show your ideas, be bold.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Technical Challenge
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-**⚠️ Please submit your exercise during the next 3 working days. ⚠️**
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-At Komon we are very busy this year’s start reshaping the connection between creators and communities 🚀🚀.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-A lot of  creators are eager to join fast and we need to give them the tools they need to collaborate with their communities. We are now adding the connections to the current social media  platforms they still are forced to use so they can migrate content and share it with their community at Komon.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-We want you to help us with the development of the creator's admin page. This page will contain the tools needed by the creator to plan and organize the tasks and interactions in Komon. Your task this week will be focused on the creator's social media integrations.
-We need to include a section to interact with social media accounts and import data from them into Komon within the creator’s admin page. It should contain the following features:
+## Learn More
 
-1. A section for assing a new connection and interacting with the social media accounts of the creator.
-  - You can define as many connections as you want. Please make sure you define at least one. Eg.: Instagram. You can use mocks to simulate the calls to any backend service.
-2. List of social media connections:
-  - The creator should be able to view all connections from a list that will display a small summary of the connection data.The creator can select one, edit name or other data and save the result
-3. A connection details section where he/she will be able to search and query all the data the connection provides (images, videos, audio, files etc) and take actions like add it as profile pic, share it with the community, select many pieces of content and create a poll etc.
+To learn more about Next.js, take a look at the following resources:
 
-As we are launching many features too fast, our designers are a bit under the water designing the different items. Hence, you will have to propose your UX/UI approach for the page (this job is just for the exercise as at Komon we  value design deeply and believe it's a crucial part of our experience).
-Feel free to check our WebApp to get inspiration. It should be aligned with the normal UX experience of social media platforms.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Delivery
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-Fork this repository into your own Github account and perform all the development there. 
+## Deploy on Vercel
 
-We will ask you to share this repo with some of our developers in case we need further details.
-Please include several commits while you are progressing. We want to understand  how  you think, as well as your thought process evolution.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Restrictions  ⚠️
-
-- You should use React and Next.
-- Styling has to be defined using Tailwind.
-- Any other non-standard library used should come with the explanation of why you chose that library versus any other similar ones (brief ADR - [Architectural Decision Record](https://docs.aws.amazon.com/prescriptive-guidance/latest/architectural-decision-records/adr-process.html)).
-
-## Nice to have
-
-- Use of typescript.
-- Setup of e2e tests.
-- SEO optimized components.
-- Good web vitals metrics on the generated page(s).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
